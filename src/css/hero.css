@@ -1,4 +1,52 @@
 .hero {
-  font-family: 'Signika', sans-serif;
-  font-weight: 700;
+  background-color: #d45388; 
+  padding: 60px 20px;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-title {
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 64px;
+color: #fff;
+  margin-bottom: 20px;
+  width: 699px;
+}
+
+.hero-description {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+width: 574px;
+padding-bottom: 30px;
+margin: 0;
+}
+
+.hero-button img {
+  width: 160px;
+  height: auto;
+}
+
+.hero-image {
+  
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
 }
