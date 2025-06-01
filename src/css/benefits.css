@@ -1,5 +1,5 @@
 .benefits {
-  background-color: #d65c91;
+  background-color: #ce648e;
 
   padding-bottom: 100px;
   text-align: center;
@@ -16,6 +16,7 @@ font-weight: 700;
 font-size: 58px;
 color: #fff;
 margin-bottom: 42px;
+padding-top: 100px;
 }
 
 .benefits-grid {

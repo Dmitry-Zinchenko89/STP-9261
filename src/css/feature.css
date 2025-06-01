@@ -1,5 +1,5 @@
 .feature {
-  width: 1200px;
+  
   height: 1009px;
   background: #ce648e;
 }
@@ -19,6 +19,7 @@
   gap: 31px;
   padding-right: 80px;
   padding-left: 80px;
+  margin: 0 auto;
 }
 .feature-card {
   border-radius: 20px;
