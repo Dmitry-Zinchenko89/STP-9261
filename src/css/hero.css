@@ -1,15 +1,13 @@
-.hero {
-  background-color: #d45388;
-  padding: 60px 20px;
-}
+
 
 .hero-container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin-top: 100px;
+  padding: 0;
   display: flex;
-  align-items: center;
+  
   justify-content: space-between;
-  gap: 40px;
+  gap: 70px;
   flex-wrap: wrap;
 }
 
@@ -23,7 +21,7 @@
   font-weight: 700;
   font-size: 64px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   width: 699px;
 }
 
@@ -42,10 +40,9 @@
   height: auto;
 }
 
-.hero-image {
-}
-
 .hero-image img {
-  max-width: 100%;
-  height: auto;
+border-radius: 15px;
+width: 271px;
+height: 431px;
+
 }
