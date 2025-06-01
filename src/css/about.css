@@ -1,0 +1,57 @@
+
+
+.about-sect {
+    
+   padding-top: 100px;
+   
+   background-image: url(../img/desktop/about-background.png);
+    background-repeat: no-repeat;
+    background-position: left 75px;
+   
+   
+
+  
+}
+
+
+
+.container-about {
+    display: flex;
+    gap: 108px;
+    
+    padding: 0;
+
+    
+    
+}
+.title-about{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 58px;
+color: #fff;
+padding-bottom: 15px;
+height: 78px;
+}
+.description-about {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+
+}
+.description-container {
+    max-width: 524px;
+    padding-bottom: 102px;
+    padding-left: 80px;
+    
+    
+}
+.img-container {
+    padding-right: 80px;
+    padding-top: 93px;
+}
+.img-about {
+    border-radius: 15px;
+width: 407px;
+height: 270px;
+}
