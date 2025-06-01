@@ -1,0 +1,63 @@
+ body {
+ 
+}
+
+.faq-section {
+  padding: 0;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.faq-section h2 {
+
+  font-family: var(--second-family);
+font-weight: 700;
+font-size: 58px;
+color: #fff;
+
+width: 174px;
+height: 78px;
+}
+
+.faq-grid {
+    display: flex;
+    flex-wrap: wrap;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.faq-card {
+  background: linear-gradient(to right, #fdbb2d, #f08800);
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+width: 422px;
+height: 100px;
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+font-weight: 400;
+}
+
+.faq-card.dark {
+  box-shadow: inset 4px 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: linear-gradient(180deg, #8f220a 0%, #f90 100%);
+  
+border-radius: 20px;
+width: 215px;
+height: 215px;
+}
+.faq-card.big {
+border-radius: 20px;
+width: 422px;
+height: 125px;
+}
+
+.faq-grid .faq-card:first-child {
+  margin-top: 115px; 
+} 
+
