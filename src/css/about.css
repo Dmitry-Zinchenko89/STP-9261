@@ -1,26 +1,38 @@
 
-
+@media only screen and (min-width: 1200px) {
 .about-sect {
     
    padding-top: 100px;
-   
-   background-image: url(../img/desktop/about-background.png);
-    background-repeat: no-repeat;
-    background-position: left 75px;
-   
-   
 
-  
 }
 
 
-
+.description-container {
+  
+  position: relative;
+  max-width: 524px;
+  padding-left: 80px;
+  padding-bottom: 102px;
+  z-index: 1;
+}
+.description-container::before {
+  content: '';
+  position: absolute;
+  top: 130px;
+  left: 100px;
+  width: 481px;
+  height: 738px;
+  background: url('../img/desktop/about-background.png') no-repeat;
+  background-size: contain;
+  z-index: -1;
+   transform: scale(1.4);
+}
 .container-about {
     display: flex;
     gap: 108px;
     
     padding: 0;
-
+    
     
     
 }
@@ -54,4 +66,5 @@ color: #fff;
     border-radius: 15px;
 width: 407px;
 height: 270px;
+}
 }
