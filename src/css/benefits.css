@@ -1,10 +1,10 @@
+@media only screen and (min-width: 1200px) {
 .benefits {
   background-color: #ce648e;
 
   padding-bottom: 100px;
   text-align: center;
-  padding-left: 80px;
-  padding-right: 80px;
+  
 
   
 
@@ -79,4 +79,5 @@ max-width: 1040px;
 margin: 0 auto;
 
 
+}
 }

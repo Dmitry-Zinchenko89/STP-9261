@@ -1,3 +1,5 @@
+
+@media only screen and (min-width: 1200px) {
 .gallery-section {
     padding-left: 80px;
     padding-right: 80px;
@@ -38,4 +40,5 @@ padding-top: 100px;
 .container.gallery-container {
     margin: 0 auto;
    max-width: 1040px;
+}
 }
