@@ -45,7 +45,7 @@
     justify-content: center;
     padding-left: 128px;
     padding-right: 128px;
-    padding-bottom: 26px;
+    padding-bottom: 50px;
     padding-top: 30px;
   }
   .feature-card-title {
@@ -74,5 +74,91 @@
     padding-bottom: 50px;
     padding-right: 50px;
     padding-left: 45px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .feature {
+    height: 1653px;
+    background: #ce648e;
+    margin: 0 auto;
+  }
+  .feature-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 37px;
+    padding-right: 37px;
+    gap: 20px;
+  }
+  .feature-title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 170px;
+  }
+  .feature-card {
+    width: 246px;
+    height: 233px;
+    border-radius: 20px;
+    box-shadow: inset 4px 4px 4px 0 rgba(0, 0, 0, 0.25),
+      0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: linear-gradient(180deg, #5f0072 10%, #8b0100 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .feature-img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 25px;
+    padding-top: 32px;
+    padding-left: 98px;
+    padding-right: 98px;
+  }
+  .feature-img-candy {
+    width: 50px;
+    height: 50px;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-bottom: 25px;
+    padding-top: 32px;
+  }
+  .feature-card-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 15px;
+  }
+  .feature-card-title-candy {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 15px;
+  }
+  .feature-card-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 32px;
+  }
+  .feauter-span {
+    visibility: hidden;
   }
 }
