@@ -1,4 +1,75 @@
 
+@media only screen and (max-width: 1199px) {
+.about-sect {
+    
+   padding-top: 50px;
+   padding-bottom: 50px;
+
+}
+.container.container-about {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    max-width: 288px;
+}
+
+
+.description-container {
+  
+  position: relative;
+  max-width: 288px;
+  
+ 
+}
+.description-container::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -15px;
+  width: 307px;
+  height: 350px;
+  background: url('../img/mobile/About.png') no-repeat;
+  background-size: contain;
+  z-index: -1;
+   transform: scale(1);
+}
+
+.title-about{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 25px;
+color: #fff;
+padding-bottom: 20px;
+}
+.description-about {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+color: #fff;
+width: 288px;
+}
+.description-container {
+    max-width: 288px;
+    
+    
+    
+}
+.img-container {
+    padding-right: 80px;
+    padding-top: 20px;
+}
+.img-about {
+    border-radius: 15px;
+max-width: 288px;
+height: 195px;
+
+}
+
+}
+
+
+
+/* DESKTOP */
 @media only screen and (min-width: 1200px) {
 .about-sect {
     
@@ -14,6 +85,7 @@
   padding-left: 80px;
   padding-bottom: 102px;
   z-index: 1;
+  margin: 0 auto;
 }
 .description-container::before {
   content: '';

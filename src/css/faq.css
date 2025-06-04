@@ -1,8 +1,103 @@
+@media only screen and (max-width: 1199px) {
+.faq-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* чтобы можно было управлять выравниванием */
+  gap: 20px;
+}
+
+.faq-card {
+  width: 100%; /* чтобы адаптировалась */
+  max-width: 238px; /* ограничим максимальную ширину */
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 15px;
+color: #fff;
+}
+
+/* Нечётные карточки — слева */
+.faq-card:nth-child(odd) {
+  align-self: flex-start;
+}
+
+/* Чётные карточки — справа */
+.faq-card:nth-child(even) {
+  align-self: flex-end;
+}
+.faq-card.last:nth-child(odd){
+align-self: flex-end;
+}
+  
+.title-faq {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 25px;
+color: #fff;
+max-width: 288px;
+text-align: center;
+padding-bottom: 20px;
+}
+.container.faq-container {
+  margin: 0 auto;
+  max-width: 288px;
+  flex-direction: column;
+}
+.faq-card {
+ 
+}
+.faq-card {
+  border-radius: 15px;
+max-width: 256px;
+height: 90px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: linear-gradient(180deg, #8f220a 0%, #f7a320 100%);
+ padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ .faq-card:hover,
+  .faq-card:focus,
+  .faq-card.dark:hover,
+  .faq-card.dark:focus,
+  .faq-card.big:hover,
+  .faq-card.big:focus {
+  box-shadow: inset 4px 4px 4px 0 rgba(0, 0, 0, 0.25),
+              0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(360deg, #8f220a 0%, #ff9900 100%);
+}
+.faq-card.dark {
+  max-width: 206px;
+height: 90px;
+
+
+}
+.faq-card.last {
+max-width: 206px;
+height: 90px;
+}
+.faq-grid {
+
+}
+}
+
+
+
+
+
 
 @media only screen and (min-width: 1200px) {
   
-
-
+ .faq-card:hover,
+  .faq-card:focus,
+  .faq-card.dark:hover,
+  .faq-card.dark:focus,
+  .faq-card.big:hover,
+  .faq-card.big:focus {
+  box-shadow: inset 4px 4px 4px 0 rgba(0, 0, 0, 0.25),
+              0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: linear-gradient(360deg, #8f220a 0%, #ff9900 100%);
+}
 
 .faq-section {
   padding: 0;
