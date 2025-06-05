@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/STP-9261/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/STP-9261/assets/styles-DRS1FKiJ.css">
+    <link rel="stylesheet" crossorigin href="/STP-9261/assets/styles-BmpofyND.css">
   </head>
   <body>
     <section class="header">
@@ -103,9 +103,9 @@
     </button>
     <nav class="header-nav">
       <a href="#benefits" class="header-btn">Benefits</a>
-      <a href="#features" class="header-btn">Feature Keys</a>
+      <a href="#feature" class="header-btn">Feature Keys</a>
       <a href="#about" class="header-btn">About This Game</a>
-      <a href="#how-to-play" class="header-btn">How to Play</a>
+      <a href="#play" class="header-btn">How to Play</a>
       <a href="#faq" class="header-btn">FAQ</a>
       <a href="#reviews" class="header-btn">Reviews</a>
       <a href="#gallery" class="header-btn">Gallery</a>
@@ -120,15 +120,25 @@
     <div class="hero-content">
       <h1 class="hero-title">Candy Blitz - Match Fast, Blast Big!</h1>
       <div class="hero-image-mobile">
-      <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
-    </div>
+        <picture>
+          <source
+            srcset="../img/mobile/Hero_mob.png 1x, ../img/mobile/Hero_mob@2x.png 2x"
+            type="image/png"
+          />
+          <img
+            class="hero-img"
+            src="../img/mobile/Hero_mob.png"
+            alt="hero-img"
+          />
+        </picture>
+      </div>
       <a
         class="hero-button-mobile"
         aria-label="Play now"
         href="https://play.google.com/store/apps/details?id=com.TechGeniusGames.CandyBlitz&hl=en&gl=us"
         target="_blank"
       >
-        <img  src="../img/desktop/Buttons.png" alt="" />
+        <img src="../img/desktop/Buttons.png" alt="" />
       </a>
       <p class="hero-description">
         Dive into a sugar-coated adventure with Candy Blitz — the ultimate
@@ -144,23 +154,32 @@
         href="https://play.google.com/store/apps/details?id=com.TechGeniusGames.CandyBlitz&hl=en&gl=us"
         target="_blank"
       >
-        <img  src="../img/desktop/Buttons.png" alt="" />
+        <img class="hero-btn" src="../img/desktop/Buttons.png" alt="" />
       </a>
     </div>
     <div class="hero-image">
-      <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
+      <picture>
+        <source
+          srcset="../img/desktop/hero.png 1x, ../img/desktop/hero@2x.png 2x"
+          type="image/png"
+        />
+        <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
+      </picture>
     </div>
   </div>
   <div class="cookie-banner" id="cookieBanner">
-  <h3>Cookies Policy</h3>
-  <p>
-    We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.
-  </p>
-  <div class="cookie-buttons">
-    <button class="ACCEPT-COOKIES" id="acceptCookies">ACCEPT COOKIES</button>
-    <button class="DECLINE-COOKIES" id="declineCookies">DECLINE COOKIES</button>
+    <h3>Cookies Policy</h3>
+    <p>
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <div class="cookie-buttons">
+      <button class="ACCEPT-COOKIES" id="acceptCookies">ACCEPT COOKIES</button>
+      <button class="DECLINE-COOKIES" id="declineCookies">
+        DECLINE COOKIES
+      </button>
+    </div>
   </div>
-</div>
 </section>
 
       <section class="burger-menu visually-hidden">
@@ -290,33 +309,46 @@
 
       
       <section class="benefits">
-    <div class="container benefits-container">
-  <h2 class="benefits-title">Benefits</h2>
-  <div class="benefits-grid">
-    <div class="benefit-card">
-        <p class="benefits-description">Fast-Paced Puzzle Action – Experience lightning-fast match-3 gameplay designed to keep you on your toes.
+  <a href="#benefits" id="benefits"></a>
+  <div class="container benefits-container">
+    <h2 class="benefits-title">Benefits</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <p class="benefits-description">
+          Fast-Paced Puzzle Action – Experience lightning-fast match-3 gameplay
+          designed to keep you on your toes.
         </p>
-    </div>
-    <div class="benefit-card">
-        <p class="benefits-description">No Waiting, No Lives – Play as much as you want with no timers or refill delays.
+      </div>
+      <div class="benefit-card">
+        <p class="benefits-description">
+          No Waiting, No Lives – Play as much as you want with no timers or
+          refill delays.
         </p>
-    </div>
-    <div class="benefit-card">
-        <p class="benefits-description"> Juicy Power-Ups – Use candy bombs, rainbow sprinkles, and jelly boosters to explode your score.
+      </div>
+      <div class="benefit-card">
+        <p class="benefits-description">
+          Juicy Power-Ups – Use candy bombs, rainbow sprinkles, and jelly
+          boosters to explode your score.
         </p>
-    </div>
-    <div class="benefit-card">
-        <p class="benefits-description">Compete & Climb – Battle for leaderboard glory and prove your candy-matching speed.
+      </div>
+      <div class="benefit-card">
+        <p class="benefits-description">
+          Compete & Climb – Battle for leaderboard glory and prove your
+          candy-matching speed.
         </p>
-    </div>
-    <div class="benefit-card special">
-        <p class="benefits-description">Daily Events & Bonuses – Log in daily for fresh challenges, new game modes, and bonus rewards.
+      </div>
+      <div class="benefit-card special">
+        <p class="benefits-description">
+          Daily Events & Bonuses – Log in daily for fresh challenges, new game
+          modes, and bonus rewards.
         </p>
+      </div>
     </div>
-  </div>
   </div>
 </section>
+
       <section class="feature">
+  <a href="#feature" id="feature"></a>
   <h2 class="feature-title">Feature Keys</h2>
   <div class="feature-container">
     <div class="feature-card">
@@ -389,17 +421,40 @@
 </section>
 
       <section class="about-sect">
-    <div class="container container-about">
-        <div class="description-container">
-            <h2 class="title-about">About This Game</h2>
-            <p class="description-about">Candy Blitz is a supercharged puzzle game that delivers the sweetness of classic match-3 mechanics with the excitement of real-time gameplay. Designed for casual fun and competitive thrill-seekers alike, Candy Blitz invites you into a colorful world of candy mayhem, lightning combos, and endless rewards. Whether you’re in it for the leaderboard or just to relax and swipe through sweet levels, Candy Blitz is your perfect escape!</p>
-        </div>
-        <div class="img-container">
-            <img class="img-about" width="288" height="195"  src="../img/mobile/about_mob.png" alt="about-img">
-        </div>
+  <a href="#about" id="about"></a>
+  <div class="container container-about">
+    <div class="description-container">
+      <h2 class="title-about">About This Game</h2>
+      <p class="description-about">
+        Candy Blitz is a supercharged puzzle game that delivers the sweetness of
+        classic match-3 mechanics with the excitement of real-time gameplay.
+        Designed for casual fun and competitive thrill-seekers alike, Candy
+        Blitz invites you into a colorful world of candy mayhem, lightning
+        combos, and endless rewards. Whether you’re in it for the leaderboard or
+        just to relax and swipe through sweet levels, Candy Blitz is your
+        perfect escape!
+      </p>
     </div>
+    <div class="img-container">
+      <picture>
+        <source
+          srcset="../img/mobile/about-mob.png 1x, ../img/mobile/about-mob@2x.png2x"
+          type="image/png"
+        />
+        <img
+          class="img-about"
+          width="288"
+          height="195"
+          src="../img/mobile/about-mob.png"
+          alt="about-img"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
+
       <section class="play">
+  <a href="#play" id="play"></a>
   <div class="play-container">
     <h2 class="play-title">How to Play</h2>
     <ul class="play-list">
@@ -558,34 +613,51 @@
 </section>
 
       <section class="faq-section">
-    <div class="container faq-container">
-  <h2 class="title-faq">FAQ</h2>
-  <div class="faq-grid">
-    <div class="faq-card">
-      <h3>Is Candy Blitz free to play?</h3>
-      <p>Yes! The game is 100% free with optional in-app purchases for boosters and cosmetics.</p>
+  <a href="#faq" id="faq"></a>
+  <div class="container faq-container">
+    <h2 class="title-faq">FAQ</h2>
+    <div class="faq-grid">
+      <div class="faq-card">
+        <h3>Is Candy Blitz free to play?</h3>
+        <p>
+          Yes! The game is 100% free with optional in-app purchases for boosters
+          and cosmetics.
+        </p>
+      </div>
+      <div class="faq-card dark">
+        <h3>How do I unlock new levels?</h3>
+        <p>
+          Earn stars and complete objectives to unlock the next region on the
+          world map.
+        </p>
+      </div>
+      <div class="faq-card dark">
+        <h3>Are there leaderboards? Absolutely!</h3>
+        <p>
+          Compete against players worldwide in timed challenges and weekly
+          rankings.
+        </p>
+      </div>
+      <div class="faq-card big">
+        <h3>Do I need to be online?</h3>
+        <p>
+          Nope! You can enjoy most features offline, but you’ll need an internet
+          connection to compete in global events.
+        </p>
+      </div>
+      <div class="faq-card last">
+        <h3>How do I earn more boosters?</h3>
+        <p>
+          Complete daily tasks, open reward chests, or purchase bundles with
+          earned coins.
+        </p>
+      </div>
     </div>
-    <div class="faq-card dark">
-      <h3>How do I unlock new levels?</h3>
-      <p>Earn stars and complete objectives to unlock the next region on the world map.</p>
-    </div>
-    <div class="faq-card dark">
-      <h3>Are there leaderboards? Absolutely!</h3>
-      <p>Compete against players worldwide in timed challenges and weekly rankings.</p>
-    </div>
-    <div class="faq-card big">
-      <h3>Do I need to be online?</h3>
-      <p>Nope! You can enjoy most features offline, but you’ll need an internet connection to compete in global events.</p>
-    </div>
-    <div class="faq-card last">
-      <h3>How do I earn more boosters?</h3>
-      <p>Complete daily tasks, open reward chests, or purchase bundles with earned coins.</p>
-    </div>
-  </div>
   </div>
 </section>
 
       <section class="reviews">
+  <a href="#reviews" id="reviews"></a>
   <h2 class="reviews-title">Reviews</h2>
   <div class="reviews-container">
     <div class="reviews-card">
@@ -632,28 +704,148 @@
 </section>
 
       <section class="gallery-section">
-    <div class="container gallery-container">
-<h2 class="title-gallery">Gallery</h2>
-<div class="item-container-gallery">
-<ul class="gallery-list">
-    <li class="gallery-item-desktop"><img src="../img/desktop/gallery/gallery1.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-desktop"><img src="../img/desktop/gallery/gallery2.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-desktop"><img src="../img/desktop/gallery/gallery3.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-desktop"><img src="../img/desktop/gallery/gallery4.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-desktop"><img src="../img/desktop/gallery/gallery5.png" alt="" class="gallery-img"></li>
-    
-   
-</ul>
- <ul class="gallery-list-mobile">
-    <li class="gallery-item-mobile"><img src="../img/mobile/gallery/gallery_mob1.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-mobile"><img src="../img/mobile/gallery/gallery_mob2.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-mobile"><img src="../img/mobile/gallery/gallery_mob3.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-mobile"><img src="../img/mobile/gallery/gallery_mob4.png" alt="" class="gallery-img"></li>
-    <li class="gallery-item-mobile"><img src="../img/mobile/gallery/gallery_mob5.png" alt="" class="gallery-img"></li>
-    </ul>
-</div>
-</div>
+  <a href="#gallery" id="gallery"></a>
+  <div class="container gallery-container">
+    <h2 class="title-gallery">Gallery</h2>
+    <div class="item-container-gallery">
+      <ul class="gallery-list">
+        <li class="gallery-item-desktop">
+          <picture>
+            <source
+              srcset="../img/desktop/gallery/gallery1.png 1x, ../img/desktop/gallery/gallery1@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/desktop/gallery/gallery1.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-desktop">
+          <picture>
+            <source
+              srcset="../img/desktop/gallery/gallery2.png 1x, ../img/desktop/gallery/gallery2@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/desktop/gallery/gallery2.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-desktop">
+          <picture>
+            <source
+              srcset="../img/desktop/gallery/gallery3.png 1x, ../img/desktop/gallery/gallery3@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/desktop/gallery/gallery3.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-desktop">
+          <picture>
+            <source
+              srcset="../img/desktop/gallery/gallery4.png 1x, ../img/desktop/gallery/gallery4@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/desktop/gallery/gallery4.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-desktop">
+          <picture>
+            <source
+              srcset="../img/desktop/gallery/gallery5.png 1x, ../img/desktop/gallery/gallery5@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/desktop/gallery/gallery5.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="gallery-list-mobile">
+        <li class="gallery-item-mobile">
+          <picture>
+            <source
+              srcset="../img/mobile/gallery/gallery1-mob.png 1x, ../img/mobile/gallery/gallery1-mob@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/mobile/gallery/gallery1-mob.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-mobile">
+          <picture>
+            <source
+              srcset="../img/mobile/gallery/gallery2-mob.png 1x, ../img/mobile/gallery/gallery2-mob@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/mobile/gallery/gallery2-mob.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-mobile">
+          <picture>
+            <source
+              srcset="../img/mobile/gallery/gallery3-mob.png 1x, ../img/mobile/gallery/gallery3-mob@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/mobile/gallery/gallery3-mob.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-mobile">
+          <picture>
+            <source
+              srcset="../img/mobile/gallery/gallery4-mob.png 1x, ../img/mobile/gallery/gallery4-mob@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/mobile/gallery/gallery4-mob.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+        <li class="gallery-item-mobile">
+          <picture>
+            <source
+              srcset="../img/mobile/gallery/gallery5-mob.png 1x, ../img/mobile/gallery/gallery5-mob@2x.png 2x"
+              type="image/png"
+            />
+            <img
+              src="../img/mobile/gallery/gallery5-mob.png"
+              alt=""
+              class="gallery-img"
+            />
+          </picture>
+        </li>
+      </ul>
+    </div>
+  </div>
 </section>
+
     </main>
 
     <section class="footer">
