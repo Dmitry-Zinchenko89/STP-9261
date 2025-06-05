@@ -3,9 +3,7 @@
     height: 732px;
     margin: 0 auto;
   }
-  .play-container {
-    max-width: 1040px;
-  }
+
   .play-title {
     font-family: var(--second-family);
     font-weight: 700;
@@ -157,7 +155,8 @@
 @media only screen and (max-width: 1199px) {
   .play {
     height: 704px;
-    margin: 0 auto;
+  }
+  .play-container {
   }
   .play-title {
     font-family: var(--second-family);
@@ -191,13 +190,14 @@
   }
   .play-item {
     position: relative;
+    margin: 0 auto;
   }
   .play-card {
-    width: 275px;
+    max-width: 275px;
     height: 74px;
     border-radius: 20px;
     padding-left: 29px;
-    margin: 0;
+    padding-right: 16px;
   }
   .play-number1 {
     position: absolute;
