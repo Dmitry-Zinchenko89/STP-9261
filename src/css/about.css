@@ -1,17 +1,20 @@
 
 @media only screen and (max-width: 1199px) {
-.about-sect {
-    
-   padding-top: 50px;
-   padding-bottom: 50px;
+ .about-sect {
+    padding-top: 50px;
+    padding-bottom: 50px;
 
-}
-.container.container-about {
+    display: flex; /* центрируем */
+    justify-content: center;
+  }
+ .container.container-about {
+    max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    max-width: 288px;
-}
+    
+  }
+
 
 
 .description-container {
@@ -72,9 +75,9 @@ height: 195px;
 /* DESKTOP */
 @media only screen and (min-width: 1200px) {
 .about-sect {
-    
+    max-width: 1200px;
    padding-top: 100px;
-
+margin: 0 auto;
 }
 
 
