@@ -10,12 +10,13 @@
 body {
   margin: 0;
   background: #ce648e;
+  
 
 }
 
-main {
-  flex-grow: 1;
-}
+
+
 main:has(.back-link) {
   text-align: center;
 }
+

@@ -1,23 +1,29 @@
 @media only screen and (max-width: 1199px) {
+  
   .burger-menu {
     height: 712px;
     background: #ce648e;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  opacity: 1;
+  visibility: visible;
   }
   .burger-container {
     border-radius: 5px;
     height: 46px;
     margin-left: 16px;
-    width: 289px;
+    max-width: 289px;
     background: #ad2f91;
+    margin: 0 auto;
   }
   .burger-header {
-    width: 256px;
+    max-width: 256px;
     height: 26px;
     padding: 10px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
+    
   }
   .burger-img {
     border-radius: 5px;
@@ -64,5 +70,12 @@
     height: 0px;
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .burger-nav {
+    visibility: hidden;
+    height: 1px;
   }
 }

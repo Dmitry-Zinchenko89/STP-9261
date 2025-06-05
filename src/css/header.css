@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1200px) {
+  .burger-btn {
+    visibility: hidden;
+  }
   .header {
     border-radius: 15px;
     max-width: 1040px;
@@ -52,18 +55,20 @@
   .header {
     border-radius: 5px;
     margin-left: 16px;
-    width: 289px;
+    max-width: 289px;
     height: 46px;
     background-color: #ad2f91;
+    margin: 0 auto;
   }
 
   .header-container {
     height: 26px;
-    margin: 0;
+   
     padding: 10px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
   }
 
   .header-nav {
@@ -87,4 +92,30 @@
     cursor: pointer;
     padding: 0;
   }
+
+
+
+  .visually-hidden {
+  position: absolute;
+  width: 1px;
+  top: 0;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  clip-path: inset(100%);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.burger-line-el {
+  display: block;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  width: 100%;
+}
 }

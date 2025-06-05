@@ -97,6 +97,11 @@ justify-content: center;
 
 }
 
+
+
+.svg:hover {
+ stroke: #ffcc00;
+}
 .benefits-title {
   font-family: var(--second-family);
 font-weight: 700;
