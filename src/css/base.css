@@ -10,12 +10,11 @@
 body {
   margin: 0;
   background: #ce648e;
-
 }
-
-
+html {
+  scroll-behavior: smooth;
+}
 
 main:has(.back-link) {
   text-align: center;
 }
-
