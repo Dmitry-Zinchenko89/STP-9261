@@ -1,11 +1,10 @@
 @media only screen and (max-width: 1199px) {
-  
   .burger-menu {
     height: 712px;
     background: #ce648e;
     transition: opacity 0.3s ease, visibility 0.3s ease;
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
   }
   .burger-container {
     border-radius: 5px;
@@ -23,7 +22,6 @@
     justify-content: space-between;
     align-items: center;
     padding-bottom: 30px;
-    
   }
   .burger-img {
     border-radius: 5px;
@@ -45,8 +43,7 @@
   .burger-nav-btn {
     border-radius: 15px;
     padding: 10px;
-    width: 288px;
-    height: 48px;
+    height: 20px;
     box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.35),
       inset -2px -2px 4px 0 rgba(0, 0, 0, 0.35);
     background: #9e2283;

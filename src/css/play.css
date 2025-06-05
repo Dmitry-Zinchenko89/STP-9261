@@ -37,18 +37,58 @@
 
   .play-item {
     position: relative;
+    display: inline-block;
   }
   .play-card {
-    width: 462px;
-    height: 115px;
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
   }
 
+  .play-number1,
+  .play-number2,
+  .play-number3,
+  .play-number4,
+  .play-number5,
+  .play-number6 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 48px;
+    height: 48px;
+    background-image: url('/src/img/desktop/play/Step.png'); /* один PNG для всіх */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .play-text {
+    position: absolute;
+    bottom: 16px;
+    left: 250px;
+    padding: 12px 16px;
+    background-image: url('/src/img/desktop/play/Card_how_deck.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+    z-index: 2;
+  }
   .play-number1 {
     position: absolute;
-    left: -19px;
-    top: 31%;
-    transform: translateY(-48%);
+    left: -17px;
+    top: 30%;
+    transform: translateY(-50%);
     width: 69px;
     height: 69px;
     background: #e4750e;
