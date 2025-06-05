@@ -1,145 +1,123 @@
-
 @media only screen and (max-width: 1199px) {
- .about-sect {
+  .about-sect {
     padding-top: 50px;
     padding-bottom: 50px;
 
-    display: flex; /* центрируем */
+    display: flex;
     justify-content: center;
   }
- .container.container-about {
+  .container.container-about {
     max-width: 288px;
     padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
-    
   }
 
-
-
-.description-container {
-  
-  position: relative;
-  max-width: 288px;
-  
- 
-}
-.description-container::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: -15px;
-  width: 307px;
-  height: 350px;
-  background: url('../img/mobile/About.png') no-repeat;
-  background-size: contain;
-  z-index: -1;
-   transform: scale(1);
-}
-
-.title-about{
-font-family: var(--second-family);
-font-weight: 700;
-font-size: 25px;
-color: #fff;
-padding-bottom: 20px;
-}
-.description-about {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 15px;
-color: #fff;
-width: 288px;
-}
-.description-container {
+  .description-container {
+    position: relative;
     max-width: 288px;
-    
-    
-    
-}
-.img-container {
+  }
+  .description-container::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -15px;
+    width: 307px;
+    height: 350px;
+    background: url('../img/mobile/About.png') no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: scale(1);
+  }
+
+  .title-about {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  .description-about {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    width: 288px;
+  }
+  .description-container {
+    max-width: 288px;
+  }
+  .img-container {
     padding-right: 80px;
     padding-top: 20px;
-}
-.img-about {
+  }
+  .img-about {
     border-radius: 15px;
-max-width: 288px;
-height: 195px;
-
+    max-width: 288px;
+    height: 195px;
+  }
 }
-
-}
-
-
 
 /* DESKTOP */
 @media only screen and (min-width: 1200px) {
-.about-sect {
+  .about-sect {
     max-width: 1200px;
-   padding-top: 100px;
-margin: 0 auto;
-}
+    padding-top: 100px;
+    margin: 0 auto;
+  }
 
-
-.description-container {
-  
-  position: relative;
-  max-width: 524px;
-  padding-left: 80px;
-  padding-bottom: 102px;
-  z-index: 1;
-  margin: 0 auto;
-}
-.description-container::before {
-  content: '';
-  position: absolute;
-  top: 130px;
-  left: 100px;
-  width: 481px;
-  height: 738px;
-  background: url('../img/desktop/about-background.png') no-repeat;
-  background-size: contain;
-  z-index: -1;
-   transform: scale(1.4);
-}
-.container-about {
+  .description-container {
+    position: relative;
+    max-width: 524px;
+    padding-left: 80px;
+    padding-bottom: 102px;
+    z-index: 1;
+    margin: 0 auto;
+  }
+  .description-container::before {
+    content: '';
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    width: 481px;
+    height: 738px;
+    background: url('../img/desktop/about-background.png') no-repeat;
+    background-size: contain;
+    z-index: -1;
+    transform: scale(1.4);
+  }
+  .container-about {
     display: flex;
     gap: 108px;
-    
-    padding: 0;
-    
-    
-    
-}
-.title-about{
-font-family: var(--second-family);
-font-weight: 700;
-font-size: 58px;
-color: #fff;
-padding-bottom: 15px;
-height: 78px;
-}
-.description-about {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 24px;
-color: #fff;
 
-}
-.description-container {
+    padding: 0;
+  }
+  .title-about {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 58px;
+    color: #fff;
+    padding-bottom: 15px;
+    height: 78px;
+  }
+  .description-about {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+  }
+  .description-container {
     max-width: 524px;
     padding-bottom: 102px;
     padding-left: 80px;
-    
-    
-}
-.img-container {
+  }
+  .img-container {
     padding-right: 80px;
     padding-top: 93px;
-}
-.img-about {
+  }
+  .img-about {
     border-radius: 15px;
-width: 407px;
-height: 270px;
-}
+    width: 407px;
+    height: 270px;
+  }
 }

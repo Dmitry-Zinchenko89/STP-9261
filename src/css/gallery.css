@@ -1,107 +1,83 @@
-
 @media only screen and (max-width: 1199px) {
-.gallery-section {
+  .gallery-section {
     margin: 0 auto;
- 
-    
-   
-   
-}
-.title-gallery {
- font-family: var(--second-family);
-font-weight: 700;
-font-size: 25px;
-color: #fff;
-max-width: 288px;
+  }
+  .title-gallery {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 25px;
+    color: #fff;
+    max-width: 288px;
 
-padding-bottom: 20px;
-text-align: center;
-
-}
-.gallery-list {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .gallery-list {
     display: flex;
     gap: 29px;
     visibility: hidden;
-    
-    
-}
-.gallery-list-mobile {
+  }
+  .gallery-list-mobile {
     display: flex;
     gap: 12px;
     text-align: center;
-
-}
-.gallery-img {
+  }
+  .gallery-img {
     width: 48px;
     height: 104px;
-}
-.item-container-gallery {
-  margin: 0 auto;
-}
-.gallery-item-desktop {
+  }
+  .item-container-gallery {
+    margin: 0 auto;
+  }
+  .gallery-item-desktop {
     height: 1px;
-}
-.gallery-container {
+  }
+  .gallery-container {
+  }
 
-  
-    
-}
-
-.container.gallery-container {
+  .container.gallery-container {
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 50px;
     max-width: 288px;
-    
-   
-}
-.gallery-item-desktop {}
+  }
+  .gallery-item-desktop {
+  }
 }
 @media only screen and (min-width: 1200px) {
-.gallery-section {
+  .gallery-section {
     padding-left: 80px;
     padding-right: 80px;
- 
-    
-   
-   
-}
-.gallery-list-mobile {
+    height: 732px;
+  }
+  .gallery-list-mobile {
     visibility: hidden;
     height: 1px;
-}
-.title-gallery {
+  }
+  .title-gallery {
     font-family: var(--second-family);
-font-weight: 700;
-font-size: 58px;
-color: #fff;
-text-align: center;
-padding-bottom: 50px;
-padding-top: 100px;
-
-
-}
-.gallery-list {
+    font-weight: 700;
+    font-size: 58px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 100px;
+  }
+  .gallery-list {
     display: flex;
     gap: 29px;
-    
-    
-}
-.gallery-item {
-}
-.item-container-gallery {
+  }
+  .gallery-item {
+  }
+  .item-container-gallery {
     padding-bottom: 100px;
-    
-}
-.gallery-container {
+  }
+  .gallery-container {
+  }
 
-  
-    
-}
-
-.container.gallery-container {
+  .container.gallery-container {
     margin: 0 auto;
-   max-width: 1040px;
-}
+    max-width: 1040px;
+  }
 }

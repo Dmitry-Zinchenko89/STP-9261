@@ -3,15 +3,28 @@
     <div class="hero-content">
       <h1 class="hero-title">Candy Blitz - Match Fast, Blast Big!</h1>
       <div class="hero-image-mobile">
-      <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
-    </div>
+        <picture>
+          <source
+            srcset="
+              ../img/mobile/Hero_mob.png    1x,
+              ../img/mobile/Hero_mob@2x.png 2x
+            "
+            type="image/png"
+          />
+          <img
+            class="hero-img"
+            src="../img/mobile/Hero_mob.png"
+            alt="hero-img"
+          />
+        </picture>
+      </div>
       <a
         class="hero-button-mobile"
         aria-label="Play now"
         href="https://play.google.com/store/apps/details?id=com.TechGeniusGames.CandyBlitz&hl=en&gl=us"
         target="_blank"
       >
-        <img  src="../img/desktop/Buttons.png" alt="" />
+        <img src="../img/desktop/Buttons.png" alt="" />
       </a>
       <p class="hero-description">
         Dive into a sugar-coated adventure with Candy Blitz — the ultimate
@@ -27,21 +40,30 @@
         href="https://play.google.com/store/apps/details?id=com.TechGeniusGames.CandyBlitz&hl=en&gl=us"
         target="_blank"
       >
-        <img  src="../img/desktop/Buttons.png" alt="" />
+        <img class="hero-btn" src="../img/desktop/Buttons.png" alt="" />
       </a>
     </div>
     <div class="hero-image">
-      <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
+      <picture>
+        <source
+          srcset="../img/desktop/hero.png 1x, ../img/desktop/hero@2x.png 2x"
+          type="image/png"
+        />
+        <img class="hero-img" src="../img/desktop/hero.png" alt="hero-img" />
+      </picture>
     </div>
   </div>
   <div class="cookie-banner" id="cookieBanner">
-  <h3>Cookies Policy</h3>
-  <p>
-    We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.
-  </p>
-  <div class="cookie-buttons">
-    <button class="ACCEPT-COOKIES" id="acceptCookies">ACCEPT COOKIES</button>
-    <button class="DECLINE-COOKIES" id="declineCookies">DECLINE COOKIES</button>
+    <h3>Cookies Policy</h3>
+    <p>
+      We use cookies to improve your experience on our website. By browsing this
+      website, you agree to our use of cookies.
+    </p>
+    <div class="cookie-buttons">
+      <button class="ACCEPT-COOKIES" id="acceptCookies">ACCEPT COOKIES</button>
+      <button class="DECLINE-COOKIES" id="declineCookies">
+        DECLINE COOKIES
+      </button>
+    </div>
   </div>
-</div>
 </section>
