@@ -67,14 +67,20 @@
   .gallery-list {
     display: flex;
     gap: 29px;
-  }
-  .gallery-item {
-  }
-  .item-container-gallery {
+    
+    
+}
+.gallery-item {
+}
+.item-container-gallery {
     padding-bottom: 100px;
-  }
-  .gallery-container {
-  }
+    
+}
+.gallery-container {
+
+  
+    
+}
 
   .container.gallery-container {
     margin: 0 auto;
