@@ -57,7 +57,7 @@
     left: 16px;
     width: 48px;
     height: 48px;
-    background-image: url('/src/img/desktop/play/Step.png'); /* один PNG для всіх */
+    background-image: url('/src/img/desktop/play/Step.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
