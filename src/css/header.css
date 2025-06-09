@@ -64,6 +64,11 @@
     height: 46px;
     background-color: #ad2f91;
     margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
   }
 
   .header-container {

@@ -1,11 +1,11 @@
 @media only screen and (min-width: 1200px) {
   .footer {
     border-radius: 15px 15px 0 0;
-    height: 210px;
     box-shadow: inset -2px -2px 4px 0 rgba(0, 0, 0, 0.35),
       inset 2px 2px 4px 0 rgba(0, 0, 0, 0.35);
     background: #ad2f91;
   }
+
   .footer-nav {
     padding-top: 50px;
     display: flex;

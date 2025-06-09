@@ -114,23 +114,30 @@
   }
   .play-step {
     position: absolute;
-    width: 32px;
-    height: 32px;
-    top: 10px;
-    left: 27px;
+    width: 44px;
+    height: 44px;
+    top: 4px;
+    left: 16px;
+  }
+  .play-step.step {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0px;
+    left: 18px;
   }
   .play-number {
     position: absolute;
-    top: 18px;
-    left: 40px;
+    top: 16px;
+    left: 35px;
     z-index: 2;
     width: 4px;
-    height: 15px;
+    height: 18px;
   }
   .play-number.number {
     position: absolute;
-    top: 18px;
-    left: 38px;
+    top: 16px;
+    left: 36px;
     z-index: 2;
     width: 9px;
     height: 15px;
