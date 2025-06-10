@@ -5,6 +5,11 @@
     transition: opacity 0.3s ease, visibility 0.3s ease;
     opacity: 1;
     visibility: visible;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
   }
   .burger-container {
     border-radius: 5px;
